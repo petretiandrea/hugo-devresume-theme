@@ -9,6 +9,7 @@ homepage = "//github.com/cowboysmall-tools/hugo-devresume-theme"
 tags = ["cv", "resume"]
 features = ["responsive"]
 min_version = "0.41"
+enableEmoji = true
 
 [author]
   name = "Jerry Kiely"
