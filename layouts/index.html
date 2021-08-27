@@ -44,6 +44,10 @@
                             {{ partial "information.html" . }}
                             {{ end }}
 
+                            {{ if .Site.Params.publications.enable }}
+                            {{ partial "publication.html" . }}
+                            {{ end }}
+
                         </div><!--//resume-main-->
 
                         {{ partial "sidebar.html" . }}
