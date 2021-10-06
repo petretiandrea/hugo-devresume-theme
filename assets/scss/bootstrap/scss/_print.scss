@@ -136,6 +136,20 @@
       border-color: $table-border-color;
     }
 
+    // hiding footer when printing as pdf
+    // remove language toogle
+    .footer, .language-list {
+      display: none !important;
+    }
+
+    // remove container shadow
+    .shadow-lg {
+      box-shadow: none !important;
+    }
+
+    .resume-wrapper {
+      padding: 0em !important;
+    }
     // Bootstrap specific changes end
   }
 }
