@@ -138,7 +138,7 @@
 
     // hiding footer when printing as pdf
     // remove language toogle
-    .footer, .language-list {
+    .footer, .custom-toolbar {
       display: none !important;
     }
 
